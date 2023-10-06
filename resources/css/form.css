@@ -1,0 +1,7 @@
+.form-control {
+    @apply border-gray-300 focus:border-turquesa-300 focus:ring focus:ring-turquesa-200 focus:ring-opacity-50 rounded-md shadow-sm text-xs sm:text-sm
+}
+
+.form-label {
+    @apply block font-medium text-xs sm:text-sm text-gray-700;
+}

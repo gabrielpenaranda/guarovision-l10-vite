@@ -1,0 +1,43 @@
+.hl-table {
+    @apply rounded-sm bg-slate-100 text-slate-700;
+}
+
+.hl-verde {
+    @apply rounded-sm bg-verde-100 text-verde-700;
+}
+
+.hl-carmesi {
+    @apply rounded-sm bg-carmesi-100 text-carmesi-700 px-2 py-1;
+}
+
+.hl-violeta {
+    @apply rounded-sm bg-violeta-100 text-violeta-700 px-2 py-1;
+}
+
+.hl-show {
+    @apply rounded-sm bg-ocre-100 text-ocre-800 px-2 py-1;
+}
+
+.hl-destroy {
+    @apply rounded-sm bg-gray-100 text-gray-700 px-2 py-1;
+}
+
+.table-normal {
+    @apply text-gray-800;
+}
+
+.titulo {
+    @apply text-base font-semibold sm:text-lg sm:font-bold md:text-2xl ml-4;
+}
+
+.sub-titulo {
+    @apply text-sm font-semibold sm:text-base sm:font-bold md:text-xl ml-4;
+}
+
+.hl-edit {
+     @apply rounded-sm bg-turquesa-100 text-turquesa-800 px-2 py-1;
+}
+
+[x-cloak] {
+    display: none !important;
+}

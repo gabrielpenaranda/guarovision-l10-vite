@@ -1,0 +1,80 @@
+.btn {
+    @apply font-semibold py-2 px-3 rounded cursor-pointer;
+}
+
+.btn-xs {
+    @apply text-xs;
+}
+
+.btn-sm {
+    @apply text-sm;
+}
+
+.btn-md {
+    @apply text-base;
+}
+
+.btn-lg {
+    @apply text-lg;
+}
+
+.btn-azul {
+    @apply bg-azul-500 hover:bg-azul-300 text-white;
+}
+
+
+.btn-red {
+    @apply bg-red-600 hover:bg-red-500  text-white;
+}
+
+.btn-verde {
+    @apply bg-verde-600 hover:bg-verde-500  text-white;
+}
+
+.btn-violeta {
+    @apply bg-violeta-600 hover:bg-violeta-500  text-white;
+}
+
+.btn-carmesi {
+    @apply bg-carmesi-600 hover:bg-carmesi-500  text-white;
+}
+
+.btn-ocre {
+    @apply bg-ocre-600 hover:bg-ocre-500  text-white;
+}
+
+.btn-turquesa {
+    @apply bg-turquesa-600 hover:bg-turquesa-500  text-white;
+}
+
+.btn-gris {
+    @apply bg-gris hover:bg-gray-500  text-white;
+}
+
+.btn-dark {
+    @apply bg-black hover:bg-gray-800  text-white;
+}
+
+.btn-new {
+    @apply bg-azul-700 hover:bg-azul-500 text-white;
+}
+
+.btn-edit {
+    @apply bg-turquesa-700 hover:bg-turquesa-500  text-white;
+}
+
+.btn-show {
+    @apply bg-ocre-700 hover:bg-ocre-500  text-white;
+}
+
+.btn-destroy {
+    @apply bg-black hover:bg-gray-600  text-white;
+}
+
+.btn-save {
+    @apply bg-verde-700 hover:bg-verde-500  text-white;
+}
+
+.btn-back {
+    @apply bg-red-700 hover:bg-red-500  text-white;
+}
